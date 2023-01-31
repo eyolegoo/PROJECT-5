@@ -33,7 +33,7 @@ Server B name - `mysql client`
 
 - In the MySQL Server, I created the user's **username, password and a database**.
 
-- I logged in to MySQL console using `sudo mysql`. This connected to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command.
+- I logged in to MySQL console using the command `sudo mysql`, this connected to the MySQL server as the administrative database user root, which is inferred by the use of sudo when running this command.
 
 - I ran a security script that comes pre-installed with MySQL. This script removed some insecure default settings and lock down access to my database system. Before running the script I set a password for the **root user**, using mysql_native_password as default authentication method. We’re defining this user’s password as **PassWord.1**.
 
